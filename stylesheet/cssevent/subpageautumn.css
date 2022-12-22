@@ -1,0 +1,237 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>cssspring</title>
+  <style>
+  *{
+	  margin: 0,0,0,0;
+	  padding: 0;
+	  
+  }
+  body{
+	   background-image:url(../../images/eventimages/autumnbg.jpg);
+	   background-position: center;
+	   background-size: cover;
+	   background-attachment : fixed;
+  }
+   .container{
+	   width: 100%;
+	   height: 100vh;
+	   padding-left:8%;
+	   padding-right:8%;
+	   box-sizing:border-box;
+	   
+   }
+   .navbar{
+	   height:12%;
+	   display:flex;
+	   align-items:center;
+	   
+   }
+   .logo{
+	   width:14vw;
+	   cursor:pointer;
+	   padding-top:15px;
+   }
+   nav{
+	   flex: 1;
+	   text-align: right;
+	   
+   }
+   nav ul li{
+	   list-style:none;
+	   display:inline-block;
+	   margin-left:60px;
+	   
+   }
+   nav ul li a{
+	   text-decoration:none;
+	   color:#fff;
+	   font-size:1.2vw;
+	   text-shadow:0 0 3px #000000;
+	  
+	   }
+   nav ul li:hover:after{  
+       height:2px;
+	   content:"";
+	   background:rgba(237, 142, 131, 1);
+	   display:block;
+	   margin:auto;
+	   transition:0.5s;
+   } 
+   .topic{
+	   width:100%;
+	   height:auto;
+   }
+    
+    .topic h1{
+		font-size:4.2vw;
+		text-align:center;
+		text-shadow:0px 2px 5px #000000;
+		color:#fff;
+		align-items:center;
+		justify-content:center;
+		text-decoration:underline white;	
+	}	
+	.dropbtn {
+      background-color: rgba(142, 113, 85, 0.95);
+      color: white;
+      padding: 16px;
+      font-size: 1.25vw;
+      border-radius: 10px;
+	  font-family:serif;
+	  border:none;
+	  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
+	  transition:transform 0.5s;
+
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      width:50vw;
+      margin-left:34vw;
+	  
+    } 
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+	  border-radius: 10px;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {
+		background-color: #4d4530;
+		transform:translateY(-10px);
+		}
+	
+    .details{
+		width:100%;
+		height:auto;
+		border-radius:10px;
+	}	
+	.details h1{
+		font-size:2.1vw;
+		text-align:left;
+		text-shadow:0px 2px 5px #000000;
+		color:#fff;
+		align-items:center;
+		justify-content:center;	
+	}	
+	
+	.climate p{
+		width:95%;
+		padding:16px;
+		background-color:rgba(142, 113, 85, 0.8);
+		border-radius:10px;
+		font-size:1.25vw;
+		line-height:1.6;
+		color:#fff;
+		text-shadow:0 0 1.5px #000000;
+		box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
+	}
+	.autumn{
+	   width:13vw;
+	   height:40vh;
+	   display:inline-block;
+	   border-radius:10px;
+	   box-sizing:border-box;
+       background-image:url(images/back.jpg);
+	   background-position:center;
+	   background-size:cover;
+	   margin: 1.8vh 0vw;
+	   transition:transform 1s;
+	   position: relative;
+	   box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
+   }
+   .autumn:hover{
+	   transform:translateY(-10px);
+   }
+   .outfit1{
+	   background-image:url(../../images/eventimages/autumnoutfit1.jpg);
+   }
+    .outfit2{
+		background-image:url(../../images/eventimages/autumnoutfit2.png);
+   }
+    .outfit3{
+		background-image:url(../../images/eventimages/autumnoutfit3.jpg);
+   }
+   .outfit1m{
+		background-image:url(../../images/eventimages/autumnoutfit1m.png);
+   }
+   .outfit2m{
+		background-image:url(../../images/eventimages/autumnoutfit2m.jpg);
+   }
+   .outfit3m{
+		background-image:url(../../images/eventimages/autumnoutfit3m.png);
+   }
+   .event{
+	   width:45%;
+	   height:24vh;
+	   display:inline-block;
+	   border-radius:10px;
+	   box-sizing:border-box;
+	   background-position:center;
+	   background-size:cover;
+	   margin: 1.8vh 1vw;
+	   padding:1.44vh 2.35vw 3.6vh 2.35vw;
+	   color:#fff;
+	   text-shadow: 0 0 5.5px #000000;
+	   transition:transform 0.5s;
+	   box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
+   }
+   .event:hover{
+	   transform:translateY(-10px);
+   }
+   .event1{
+	   background-image:url(../../images/eventimages/autumnleavesfestival.jpg);
+   }
+    .event2{
+		background-image:url(../../images/eventimages/akankomarimofestival.jpg);
+   }
+    .gototop{
+	  position: relative;
+      display: inline-block;
+      width:7.5vw;
+      margin-left:36vw;
+	  background-color: rgba(142, 113, 85, 0.95);
+	  border-radius:10px;
+	  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
+	  transition:transform 0.5s;
+	}
+    .gototop a{
+		text-decoration:none;
+	    padding-left:18px;
+		color:#fff;
+		text-shadow: 0 0 2px #000000;
+	}
+	.gototop:hover{
+		transform:translateY(-5px);
+	}
+    .footer{
+	   background-color:#1D3557;
+	   background-size: cover;
+	   
+   }
+	.footer p{
+		text-align:center;
+		font-size:0.86vw;
+	    color:#fff;
+	}
+  </style>
+</head>
+</html>

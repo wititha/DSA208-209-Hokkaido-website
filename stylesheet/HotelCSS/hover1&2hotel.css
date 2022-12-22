@@ -1,0 +1,38 @@
+div#hover img{
+width:19%;
+height:258px;
+float:left;
+padding:0.5%;
+display: block;
+}
+div#hover a{
+  
+  text-decoration: none;
+  color: #F1FAEE;
+  
+}
+div#hover2 img{
+  
+width:19%;
+height:258px;
+float:left;
+padding:0.5%;
+display: block;
+}
+#luxdet{
+  position: relative;
+ 
+}
+
+div#hover2 a{
+  
+  text-decoration: none;
+  color: #F1FAEE;
+  
+}
+div#moretrans  a{
+   color:black;
+}
+div#headtrans h3 a{
+   color:black;
+}

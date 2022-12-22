@@ -1,0 +1,9 @@
+div.hotel1, .hotel2, .hotel3, .hotel4, .hotel5{
+background-color:rgba(255,255,255, 0.7);
+ border-radius: 20px;
+
+}
+div.hote11 p{
+  text-align:left;
+  margin:20px;
+ }

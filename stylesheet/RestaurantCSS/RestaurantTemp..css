@@ -1,0 +1,119 @@
+    div#header {
+		margin-left: auto;
+		margin-right: auto;
+		text-align:center;
+		background-color: #1D3557;
+	}
+	div#header li {
+		font-size: 2em;
+		list-style-type: none;
+		display: inline-block;
+		padding:20px;
+		padding-left:40px;
+		padding-right:40px;
+		color: white;
+	}
+	a:link li{
+		text-decoration: none;
+		color: #F1FAEE;
+	}
+	a:visited li {
+		color: #F1FAEE;
+	}
+	a:hover li {
+		padding: 14px 0px 14px 0px;
+		background-color: #457B9D;
+		color: #F1FAEE;
+	}
+	a:active li {
+		padding: 14px 0px 14px 0px;
+		background-color:#E63946;
+		color: #F1FAEE;
+	}
+	/*Restaurant CSS*/
+	body{
+		font-size: 62.5%;
+		position:absolute;
+		width:1500px;
+		background-color:#3351A6;
+	}
+	.RES_contents_template {
+		position:relative;
+		width:93%;
+		top: 10%; ;
+		margin-left:3.8%;
+		margin-right:4%;
+		background-color:#F1FAEE;
+	}
+	.RES_Topic_template h1{
+		position:absolute;
+		background-color:#1D3557;
+		opacity: 0.8;
+		color:#F1FAEE;
+	}
+	.RES_Topic_template img {
+		margin-top:15px;
+		padding:7px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto; 
+	}
+	.OtherContents {
+		margin-bottom:35px;
+	}
+	.OtherContents img{
+		position:relative;
+		display: inline-block;
+		left:5px;
+		padding:5px;
+	}
+	.OtherContents a:hover {
+		padding:0px;
+	}
+	}
+	.OtherContents a:active{
+		padding:0px;
+	}
+	h2 {
+		font-size: 30px;
+		text-align:center;
+		padding:30px;
+		margin:15px;
+	}
+	.linefooter {
+		font-size:40px;
+		margin:0px;
+		color:white;
+		text-align:center;
+	}
+	h6{
+		font-size:20px;
+		margin: 0px;
+		padding: 10px 100px 100px 10px;
+		text-align:center;
+		color:white;
+	}
+	.Content p,pre{
+		margin:30px 350px 30px 350px;
+		font-size:20px;
+	}
+	.RES_contents_template .Content .ContentsCenter{
+		position:relative;
+		text-align:center;
+	}
+	.RES_contents_template .Content .ContentsRight{
+		margin-top:30px;
+		margin-right:40px;
+		text-align:right;
+	}
+	.Index p {
+		margin:0px;
+		padding:3px;
+		font-size:22px;
+	}
+	.GoToIndex {
+		font-size:25px;
+		position:fixed;
+		bottom:10%;
+		right:5%;
+	}

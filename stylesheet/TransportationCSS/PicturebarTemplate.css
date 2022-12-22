@@ -1,0 +1,161 @@
+    div#picturebar {
+			background-color: rgb(222, 222, 222,0.85);;
+      margin-bottom: 15px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+      border-radius: 20px;
+		}
+    div#picturebar h2 {
+			text-align: center;
+			font-size: 2em;
+			padding-top: 5px;
+		}
+    div#picturebar img{
+			float: left;
+			width: 320px;
+      height: 214px;
+			padding: 5px;
+			padding-left: 100px;
+		}
+    div#picturebar.row::after {
+		  content: "";
+		  clear: both;
+		  display: block;
+		}
+		div#picturebar h2 {
+			text-align: center;
+			font-size: 2em;
+			padding-top: 5px;
+		}
+    div#picturebar a {
+			text-decoration: none;
+      color: white;
+		}
+    div#picturebar a.click {
+			text-decoration: underline;
+      text-decoration-style: double;
+		}
+    div#picturebar span, div#picturebar a.click {
+     color: #E63946;
+    }
+    div#picturebar span a:hover {
+      color: orange;
+		}
+    div#picturebar a:hover {
+      color: orange;
+		}
+		div#picturebar.row::after {
+		  content: "";
+		  clear: both;
+		  display: block;
+		}
+		
+		.container {
+		  position: relative;
+		}
+
+		.image {
+		  display: block;
+		  width: 320px;
+		  height: auto;
+		}
+
+		.luxury {
+      position: absolute;
+      bottom: 0;
+      top: 5px;
+      left: 100px;
+      right: 0;
+    }
+    
+    .family {
+      position: absolute;
+      bottom: 0;
+      top: 229px;
+      left: 100px;
+      right: 0;
+    }
+    
+    .onsen {
+      position: absolute;
+      bottom: 0;
+      top: 453px;
+      left: 100px;
+      right: 0;
+    }
+    
+    .ryokan {
+      position: absolute;
+      bottom: 0;
+      top: 229px;
+      left: 845px;
+      right: 0;
+    }
+    
+    .more {
+      position: absolute;
+      top: 453px;
+      bottom: 0;
+      left: 525px;
+      right: 0;
+      height: 214px;
+      width: 320px;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #008CBA;
+    }
+    
+    .business {
+      position: absolute;
+      bottom: 0;
+      top: 5px;
+      left: 845px;
+      right: 0px;
+    }
+    
+    .overlay {
+      background-color: #008CBA;
+      opacity: 0.9;
+      overflow: hidden;
+      width: 0;
+      height: 214px;
+      transition: .5s ease;
+    }
+
+    .container:hover .luxury, .container:hover .family, .container:hover .onsen {
+      width: 320px;
+    }
+    
+    .container:hover .business, .container:hover .ryokan {
+      width: 320px;
+      left: 525px;
+    }
+    
+    .container:hover .more {
+      opacity: 0.9;
+    }
+
+    .text {
+      color: white;
+      opacity: 1;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+    
+    .detail {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }

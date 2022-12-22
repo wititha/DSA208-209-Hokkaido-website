@@ -1,0 +1,53 @@
+		div#wraper {
+			position: relative;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+    div#rsb {
+			position: absolute;
+			right: 0;
+			top: 0;
+			background-color: rgb(222, 222, 222,0.85);
+			width: 300px;
+      padding:  5px 12.5px;
+			font-size: 1.5em;
+      text-align: justify;
+			border-radius: 20px;
+		}
+    div#rsb p a:link {
+      text-decoration: underline;
+      text-decoration-style: double;
+      color: #E63946;
+    }
+    div#rsb p a:visited {
+      text-decoration: underline;
+      text-decoration-style: double;
+      color: #E63946;
+    }
+    div#rsb p a:hover {
+      color: orange;
+    }
+		div#content {
+			background-color: rgb(222, 222, 222,0.85);
+			width: 600px;
+			padding:  5px 12.5px;
+			font-size: 1.5em;
+			border-radius: 20px;
+		}
+		div#content p {
+			text-align: justify;
+		}  
+    div#rsb h2 {
+    font-variant: small-caps;
+    color:#E63946;
+    }
+    div#content p.center,div#rsb p.center, div#rsb h3.center, div#rsb h2.center {
+			text-align: center;
+		}
+		div#content p.center img {
+      border-radius: 20px;
+    }
+    iframe {
+    border: 0;
+    border-radius: 20px;
+    }

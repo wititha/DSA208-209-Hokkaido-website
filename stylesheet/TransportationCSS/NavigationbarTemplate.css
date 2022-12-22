@@ -1,0 +1,39 @@
+div#navigation{
+  clear: both;
+	height: 50px;
+  margin-top: 10px;
+	border-radius: 20px;
+}
+div#navigation a:hover {
+  background-color: #a8dadc;
+  color: black;
+}
+div#navigation ul {
+	 border-radius: 20px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width : 100%;
+   margin : auto;
+	 overflow: hidden;
+ }
+div#navigation li {
+  float: left;
+  width:20%;
+  padding:0;
+  background-color: #457b9d;
+}
+div#navigation li a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: 20px;
+  display: block;
+	border-radius: 20px;
+}
+div#navigation a.active {
+      background-color: #a8dadc;
+      color: black;
+}

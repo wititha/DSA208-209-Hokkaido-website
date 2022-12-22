@@ -1,0 +1,134 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>css</title>
+  <style>
+  *{
+	  margin: 0,0,0,0;
+	  padding: 0;
+	  
+  }
+  body{
+	  background-image:url(../../images/eventimages/eventsbg.jpg);
+	   background-position: center;
+	   background-size: cover;
+  }
+   .container{
+	   width: 100%;
+	   height: 100vh;
+	   padding-left:8%;
+	   padding-right:8%;
+	   box-sizing:border-box;
+	   
+   }
+   .navbar{
+	   height:12%;
+	   display:flex;
+	   align-items:center;
+	   
+   }
+   .logo{
+	   width:14vw;
+	   cursor:pointer;
+	   padding-top:15px;
+   }
+   nav{
+	   flex: 1;
+	   text-align: right;
+	   
+   }
+   nav ul li{
+	   list-style:none;
+	   display:inline-block;
+	   margin-left:60px;
+	   
+   }
+   nav ul li a{
+	   text-decoration:none;
+	   color:#fff;
+	   font-size:1.2vw;
+	   text-shadow:0 0 0.5px #000000;
+	  
+	   }
+   nav ul li:hover:after{  
+       height:2px;
+	   content:"";
+	   background:#1D3557;
+	   display:block;
+	   margin:auto;
+	   transition:0.5s;
+   }   
+   .description{
+	   display: flex;
+	   height: 88%;
+	   align-items: center;
+	   text-shadow: 0 0 5px #000000;
+	  
+   }	
+   .topic:hover{
+	   transform:translate(5px,5px);
+	   transition:transform 0.5s;
+   }
+   .describe{
+	   flex-basis:50%;
+	   color:#fff;
+   }
+   h1{ 
+	   color:#fff;
+	   font-size:7.8vw;
+   }
+   .describe p{
+	   font-size:1.4vw;
+   }
+   .season{
+	   width:200px;
+	   height:21.62vh;
+	   display:inline-block;
+	   border-radius:10px;
+	   box-sizing:border-box;
+	   cursor:pointer;
+	   background-position:center;
+	   background-size:cover;
+	   margin: 1.8vh 1vw;
+	   padding:1.44vh 2.35vw 3.6vh 2.35vw;
+	   transition:transform 0.5s;
+	   position: relative;
+	   
+   }
+   .season a{
+	   color:#fff;
+	   text-decoration:none;
+   }
+   .spring{
+	    background-image:url(../../images/eventimages/spring.jpg);
+   }
+    .summer{
+	    background-image:url(../../images/eventimages/summer.jpg);
+   }
+    .autumn{
+	    background-image:url(../../images/eventimages/autumn.jpg);
+   }
+    .winter{
+	    background-image:url(../../images/eventimages/winter.jpg);
+   }
+   .season:hover{
+	   transform:translateY(-10px);
+   }
+   .footer{
+	   background-color:#1D3557;
+	   background-size: cover;
+   }
+	.footer p{
+		text-align:center;
+		font-size:0.86vw;
+	    color:#fff;
+	}
+   
+   
+	   
+   
+   
+  </style>
+</head>
+</html>

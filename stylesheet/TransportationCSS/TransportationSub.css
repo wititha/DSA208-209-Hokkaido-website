@@ -1,0 +1,83 @@
+div#content {
+			background-color: rgb(222, 222, 222,0.85);
+			width: 935px;
+      margin-top: 15px;
+			padding:  5px 12.5px;
+			font-size: 1.5em;
+			text-align: justify;
+			border-radius: 20px;
+		}
+    div#content strong.red {
+      color: #E63946;
+    }
+		div#content li {
+      font-weight: bold;
+    }
+    div#content p.center {
+      text-align: center;
+    }
+		div#content p.center img {
+      border-radius: 20px;
+    }
+    div.slide-container {
+      width: 800px;
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      text-align: center;
+			margin-top: 20px;
+    }
+    div.image-container {
+      width: 2400px;
+      height: 400px;
+      position: relative;
+      transition: left 2s;
+      -webkit-transition: left 2s;
+			border-radius: 20px;
+    }
+    div.image-container img {
+      width: 800px;
+      height: 400px;
+			border-radius: 20px;
+    }
+    img.slide-image {
+      float: left;
+      margin: 0px;
+      padding: 0px; 
+    }
+    div.button-container {
+      top: -25px;
+      position: relative;
+    }
+    .slider-button {
+      display: inline-block;
+      height: 15px;
+      width: 15px;
+      border-radius: 12.5px;
+      margin-bottom: 12.5px;
+      background-color: white;
+    }
+    .slider-button:hover {
+      background-color: #E63946;
+    }
+    #slide-image-1:target ~ .image-container {
+      left: 0px;
+    }
+    #slide-image-2:target ~ .image-container {
+      left: -800px;
+    }
+    #slide-image-3:target ~ .image-container {
+      left: -1600px;
+    }
+		div#content span.color-hover a:link {
+			text-decoration: underline;
+      color: #E63946;
+    }
+		div#content span.color-hover a:hover {
+      color: orange;
+		}
+		div#content span.color-hover a:visited {
+			text-decoration: underline;
+      color: #E63946;
+    }

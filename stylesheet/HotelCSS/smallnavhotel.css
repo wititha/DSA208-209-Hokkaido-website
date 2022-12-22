@@ -1,0 +1,9 @@
+div#hint li {
+ display:inline;
+ text-decoration:none;
+ color:black;
+}
+div#hint li a {
+ display:inline;
+ text-decoration:none;
+  color:black

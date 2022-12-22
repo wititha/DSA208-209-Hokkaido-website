@@ -1,0 +1,48 @@
+
+
+#luxury, #Business, #Family, #Ryokan, #Onsen, #hover2, #hint ul
+{
+ background-color:rgba(255,255,255, 0.7);
+text-align:center;
+border-radius: 20px;
+}
+
+#hint ul{
+ text-align:left;
+}
+#hint li a, #hint li, {
+ text-align:left;
+ text-decoration: none;
+		color: #F1FAEE;
+}
+.main
+{
+  text-align:center;
+}
+ul.luxdef{
+  text-align:left;
+}
+.left{
+  
+text-align:left;
+margin:10px;
+}
+
+
+
+
+
+<!--navigatiobar-->
+iframe {
+    border: 0;
+   
+    }
+
+
+
+div#footer p{
+  text-align:center;
+  background-color:#F64C72;
+  border-radius: 20px;
+  
+}

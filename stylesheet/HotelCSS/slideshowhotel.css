@@ -1,0 +1,182 @@
+.container{
+  text-align:center;
+}
+.slidershow{
+  margin-top:1%;
+width:800px;
+height:550px;
+overflow: hidden;
+border-radius: 20px;
+position:absolute;
+margin-left:8%;
+}
+.middle{
+  position:relative;
+}
+
+.label1, .label2, .label3, .label4, .label5{
+  position:absolute;
+  bottom:5%;
+ left:50%;
+  transform: translateX(-50%);
+  display:flex;
+}
+.bar1, .bar2, .bar3, .bar4, .bar5{
+ width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin :6px;
+  cursor:pointer;
+  transition:0.4s;
+}
+.bar1:hover, .bar2:hover, .bar3:hover, .bar4:hover, .bar5:hover{
+  background:#fff;
+}
+input[name="r1"]{
+  
+      position: absolute;
+      visibility:hidden;
+}
+
+.show1, .show2, .show3, .show4, .show5{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+.slide1, .slide2, .slide3, .slide4, .slide5
+{
+  width:20%;
+  transition:0.6s;
+
+
+}
+.slide1 img, .slide2 img, .slide3 img, .slide4 img, .slide5 img{
+  width:100%;
+  height:100%;
+  
+  
+}
+
+
+
+#r1:checked ~ .s1{
+  margin-left:0;
+}
+#r2:checked ~ .s1{
+  margin-left:-20%;
+}
+#r3:checked ~ .s1{
+  margin-left:-40%;
+}
+#r4:checked ~ .s1{
+  margin-left:-60%;
+}
+#r5:checked ~ .s1{
+  margin-left:-80%;
+}
+
+
+
+
+
+
+
+input[name="r2"]{
+  
+      position: absolute;
+      visibility:hidden;
+}
+
+
+
+#r6:checked ~ .s2{
+  margin-left:0;
+}
+#r7:checked ~ .s2{
+  margin-left:-20%;
+}
+#r8:checked ~ .s2{
+  margin-left:-40%;
+}
+#r9:checked ~ .s2{
+  margin-left:-60%;
+}
+#r10:checked ~ .s2{
+  margin-left:-80%;
+}
+
+
+input[name="r3"]{
+  
+      position: absolute;
+      visibility:hidden;
+}
+
+
+
+#r11:checked ~ .s3{
+  margin-left:0;
+}
+#r12:checked ~ .s3{
+  margin-left:-20%;
+}
+#r13:checked ~ .s3{
+  margin-left:-40%;
+}
+#r14:checked ~ .s3{
+  margin-left:-60%;
+}
+#r15:checked ~ .s3{
+  margin-left:-80%;
+}
+
+input[name="r4"]{
+  
+      position: absolute;
+      visibility:hidden;
+}
+
+
+
+#r16:checked ~ .s4{
+  margin-left:0;
+}
+#r17:checked ~ .s4{
+  margin-left:-20%;
+}
+#r18:checked ~ .s4{
+  margin-left:-40%;
+}
+#r19:checked ~ .s4{
+  margin-left:-60%;
+}
+#r20:checked ~ .s4{
+  margin-left:-80%;
+}
+
+
+input[name="r5"]{
+  
+      position: absolute;
+      visibility:hidden;
+}
+
+
+
+#r21:checked ~ .s5{
+  margin-left:0;
+}
+#r22:checked ~ .s5{
+  margin-left:-20%;
+}
+#r23:checked ~ .s5{
+  margin-left:-40%;
+}
+#r24:checked ~ .s5{
+  margin-left:-60%;
+}
+#r25:checked ~ .s5{
+  margin-left:-80%;
+}
+
+
